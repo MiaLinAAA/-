@@ -1,0 +1,3 @@
+query_id,text,purpose
+Q01,river bank,baseline ambiguous wording
+Q02,river shore beside flowing water,changed wording with water context

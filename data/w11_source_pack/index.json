@@ -1,0 +1,63 @@
+{
+  "pack_id": "lecture-aligned-user-derived-W11-v3",
+  "official_w11_pack": false,
+  "note": "以教師W11講義與使用者W03/W07作業建立的可核對離線來源包；非教師W11指定source pack。",
+  "sources": [
+    {
+      "source_id": "S01",
+      "title": "W11課堂講義：Agent、Workflow與驗收",
+      "file": "texts/S01.md",
+      "origin_file": "originals/W11-lecture.zh-Hant-v6.pdf",
+      "keywords": [
+        "Agent",
+        "workflow",
+        "固定",
+        "動態",
+        "validator",
+        "安全",
+        "合約",
+        "證據",
+        "source",
+        "steps"
+      ],
+      "sha256": "2e81da3b692cdc5bd15a3af2ee9c68e57fd01b2f04a17f25d314fbba283eca4e",
+      "source_level": "teacher_lecture"
+    },
+    {
+      "source_id": "S02",
+      "title": "W03文獻綜述：Agentic治理與實證缺口",
+      "file": "texts/S02.md",
+      "origin_file": "originals/W03_Responsible_AI_Review.docx",
+      "keywords": [
+        "Agent",
+        "風險",
+        "安全",
+        "治理",
+        "動態",
+        "可靠",
+        "監控",
+        "workflow"
+      ],
+      "sha256": "407406b1b30d755ce0c9afe00ce5750a2a132ab186f05dba3d53a2def6865246",
+      "source_level": "student_secondary_review"
+    },
+    {
+      "source_id": "S03",
+      "title": "W07教學實驗：檢索歧義與證據鏈",
+      "file": "texts/S03.md",
+      "origin_file": "originals/W07_Embedding_Retrieval_Fixture.zip",
+      "keywords": [
+        "Agent",
+        "檢索",
+        "證據",
+        "river",
+        "bank",
+        "fixture",
+        "top3",
+        "source"
+      ],
+      "sha256": "68f84d6eb010c76de4ea5ba8bd70d70594b610d05b4dbe793f394c77afb79544",
+      "source_level": "teacher_handcrafted_fixture"
+    }
+  ]
+}

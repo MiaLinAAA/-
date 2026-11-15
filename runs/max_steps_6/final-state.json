@@ -1,0 +1,13 @@
+{
+  "max_steps": 6,
+  "action_count": 5,
+  "sources_read": [
+    "S01",
+    "S02",
+    "S03"
+  ],
+  "brief_written": true,
+  "validator_counts_as_action": false,
+  "local_validator_status": "PASS",
+  "halt_reason": "success"
+}

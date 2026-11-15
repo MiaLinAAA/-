@@ -1,0 +1,75 @@
+{
+  "artifact_id": "AT3-W11-lecture-aligned-v3",
+  "experiment_type": "deterministic_offline_fixed_workflow_fixture",
+  "agent_model_used": false,
+  "api_used": false,
+  "network_used": false,
+  "gpu_used": false,
+  "teacher_lecture_used": true,
+  "teacher_designated_source_pack_available": false,
+  "official_validator_available": false,
+  "official_validator_executed": false,
+  "local_validator_executed": true,
+  "python_version": "3.13.5",
+  "comparison_variable": "max_steps",
+  "conditions": [
+    3,
+    6
+  ],
+  "fixed_task_sources_tools_validator_rubric": true,
+  "validator_counts_as_action": false,
+  "source_pack_id": "lecture-aligned-user-derived-W11-v3",
+  "source_records": [
+    {
+      "source_id": "S01",
+      "origin_file": "originals/W11-lecture.zh-Hant-v6.pdf",
+      "source_level": "teacher_lecture",
+      "sha256": "2e81da3b692cdc5bd15a3af2ee9c68e57fd01b2f04a17f25d314fbba283eca4e"
+    },
+    {
+      "source_id": "S02",
+      "origin_file": "originals/W03_Responsible_AI_Review.docx",
+      "source_level": "student_secondary_review",
+      "sha256": "407406b1b30d755ce0c9afe00ce5750a2a132ab186f05dba3d53a2def6865246"
+    },
+    {
+      "source_id": "S03",
+      "origin_file": "originals/W07_Embedding_Retrieval_Fixture.zip",
+      "source_level": "teacher_handcrafted_fixture",
+      "sha256": "68f84d6eb010c76de4ea5ba8bd70d70594b610d05b4dbe793f394c77afb79544"
+    }
+  ],
+  "results": [
+    {
+      "run_id": "max_steps_3",
+      "max_steps": 3,
+      "action_calls": 3,
+      "search_calls": 1,
+      "read_calls": 2,
+      "write_calls": 0,
+      "validator_post_run": 1,
+      "sources_read": 2,
+      "cited_sources": 0,
+      "brief_exists": 0,
+      "local_validator_status": "FAIL",
+      "official_validator_status": "NOT_RUN",
+      "halt_reason": "max_steps_exhausted"
+    },
+    {
+      "run_id": "max_steps_6",
+      "max_steps": 6,
+      "action_calls": 5,
+      "search_calls": 1,
+      "read_calls": 3,
+      "write_calls": 1,
+      "validator_post_run": 1,
+      "sources_read": 3,
+      "cited_sources": 3,
+      "brief_exists": 1,
+      "local_validator_status": "PASS",
+      "official_validator_status": "NOT_RUN",
+      "halt_reason": "success"
+    }
+  ],
+  "caveat": "教師課堂講義已核對；但指定W11 student-kit及官方final-state validator仍未提供。自建來源包與validator不能替代官方驗收；W07為手工fixture。"
+}

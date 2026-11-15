@@ -1,0 +1,29 @@
+[
+  {
+    "rank": 1,
+    "query_id": "Q02",
+    "query": "river shore beside flowing water",
+    "passage_id": "T09",
+    "score": 0.999937,
+    "passage_text": "我們坐在河岸邊觀察水流。",
+    "relevance_observation": "高度相关：河岸 + 水流，与 query 语义几乎完全对齐。"
+  },
+  {
+    "rank": 2,
+    "query_id": "Q02",
+    "query": "river shore beside flowing water",
+    "passage_id": "T08",
+    "score": 0.997588,
+    "passage_text": "We sat on the river bank and watched the water.",
+    "relevance_observation": "高度相关：英文河岸与观水描述，符合意图。"
+  },
+  {
+    "rank": 3,
+    "query_id": "Q02",
+    "query": "river shore beside flowing water",
+    "passage_id": "T07",
+    "score": 0.168371,
+    "passage_text": "The bank approved a loan for the small business.",
+    "relevance_observation": "不相关：金融银行句，score 已大幅下降，歧义影响减弱。"
+  }
+]

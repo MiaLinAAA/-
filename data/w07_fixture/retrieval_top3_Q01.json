@@ -1,0 +1,29 @@
+[
+  {
+    "rank": 1,
+    "query_id": "Q01",
+    "query": "river bank",
+    "passage_id": "T08",
+    "score": 0.865789,
+    "passage_text": "We sat on the river bank and watched the water.",
+    "relevance_observation": "高度相关：明确描述河岸（river bank）与流水，符合「河岸」意图。"
+  },
+  {
+    "rank": 2,
+    "query_id": "Q01",
+    "query": "river bank",
+    "passage_id": "T09",
+    "score": 0.835171,
+    "passage_text": "我們坐在河岸邊觀察水流。",
+    "relevance_observation": "高度相关：中文对应的河岸描述，跨语言配对成功。"
+  },
+  {
+    "rank": 3,
+    "query_id": "Q01",
+    "query": "river bank",
+    "passage_id": "T07",
+    "score": 0.690192,
+    "passage_text": "The bank approved a loan for the small business.",
+    "relevance_observation": "不相关：金融「银行」语境，因 bank 词面歧义进入 top-3。"
+  }
+]

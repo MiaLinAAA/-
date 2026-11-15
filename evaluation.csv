@@ -1,0 +1,3 @@
+﻿run_id,max_steps,action_calls,search_calls,read_calls,write_calls,validator_post_run,sources_read,cited_sources,brief_exists,local_validator_status,official_validator_status,halt_reason
+max_steps_3,3,3,1,2,0,1,2,0,0,FAIL,NOT_RUN,max_steps_exhausted
+max_steps_6,6,5,1,3,1,1,3,3,1,PASS,NOT_RUN,success

@@ -1,0 +1,29 @@
+{
+  "validator": "student-built-W11-lecture-aligned-v3",
+  "official_teacher_validator": false,
+  "status": "FAIL",
+  "checks": {
+    "brief_nonempty": false,
+    "brief_has_research_question_and_conclusion": false,
+    "three_unique_citations": false,
+    "citations_from_read_sources": true,
+    "three_distinct_sources_read": false,
+    "action_count_within_budget": true,
+    "five_actions_for_success": false,
+    "tool_observation_matching": true,
+    "search_and_write_recorded": false,
+    "allowed_tool_names": true,
+    "output_path_safety": true,
+    "source_pack_non_official_disclosed": true
+  },
+  "max_steps": 3,
+  "action_count": 3,
+  "read_sources": [
+    "S01",
+    "S02"
+  ],
+  "cited_sources": [],
+  "citation_count": 0,
+  "brief_chars": 0,
+  "caveat": "checks verify structural provenance and line validity, not semantic entailment of every claim"
+}
