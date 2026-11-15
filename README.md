@@ -1,6 +1,5 @@
-
 Evidence-grounded research briefing: an offline reproducibility study
-This repository is the experimental accompaniment to paper.pdf (AT4 final report).
+This repository is the experimental accompaniment to paper.pdf (AT4 final report). The canonical editable manuscript is paper.docx; paper.pdf is exported directly from this Word manuscript to preserve identical pagination and content.
 Provenance first
 - W07: teacher-provided 6-dimensional handcrafted embedding fixture, not MiniLM/E5/LLM performance.
 - W11: deterministic fixed workflow, not an LLM-driven dynamic agent. The source pack is constructed from the W03 student literature worksheet, W07 fixture, and W11 lecture.
@@ -25,8 +24,7 @@ Repository map
 - source-pack/: W11 derived source texts and index, with source IDs S01–S03.
 - supplementary/: source notes and provenance from the W11 submission.
 - results/: machine-readable generated outcomes and paper figures.
-- paper.pdf: report (8–10 pages).
+- paper.docx: clean editable manuscript (A4, black Times New Roman text, no running header).
+- paper.pdf: 8-page A4 report exported from the same DOCX.
 Scope and limitations
 The experiment demonstrates a dependency chain among retrieval, source reading, citation writing and final-state checks within a controlled teaching fixture. It does not establish LLM agent efficacy, statistical generalization, retrieval model performance, semantic truth of all claims, or official teacher acceptance. The source pack includes secondary student notes; no external transmission is performed.
-Attributions
-See paper.pdf and supplementary/ for original coursework context and bibliography. Names and grades are intentionally omitted from this public-facing reproduction repository. No GitHub remote was created; upload the repository folder to a GitHub repository if your course requires a URL.
