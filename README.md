@@ -112,7 +112,6 @@ repository/
 ├── README.md
 ├── requirements.txt
 ├── paper.pdf
-├── paper.docx
 ├── run_all.py
 ├── src/
 │   ├── agent.py
