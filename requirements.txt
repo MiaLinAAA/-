@@ -1,0 +1,2 @@
+# Core experiments use Python 3.10+ standard library only.
+# No third-party packages required for rerunning supplied results.
