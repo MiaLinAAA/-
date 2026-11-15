@@ -1,0 +1,15 @@
+
+test_budget (test_at4.AT4Tests.test_budget) ... ok
+test_negative_cases (test_at4.AT4Tests.test_negative_cases) ... ok
+test_retrieval (test_at4.AT4Tests.test_retrieval) ... ok
+test_comparison (test_w11.W11Tests.test_comparison) ... ok
+test_core_artifacts (test_w11.W11Tests.test_core_artifacts) ... ok
+test_reproducible (test_w11.W11Tests.test_reproducible) ... ok
+test_validator_rejects_fake_citation (test_w11.W11Tests.test_validator_rejects_fake_citation) ... ok
+test_validator_rejects_missing_brief (test_w11.W11Tests.test_validator_rejects_missing_brief) ... ok
+test_validator_rejects_trace_mismatch (test_w11.W11Tests.test_validator_rejects_trace_mismatch) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.023s
+
+OK

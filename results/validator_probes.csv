@@ -1,0 +1,5 @@
+condition,status,failed_checks
+intact,PASS,none
+missing_brief,FAIL,brief_has_research_question_and_conclusion;brief_nonempty;search_and_write_recorded;three_unique_citations
+invalid_citation,FAIL,citations_from_read_sources
+missing_tool_result,FAIL,search_and_write_recorded;tool_observation_matching

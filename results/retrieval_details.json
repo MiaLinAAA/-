@@ -1,0 +1,23 @@
+{
+  "fixture_type": "handcrafted_teacher_vectors_not_model_output",
+  "q01": {
+    "query_id": "Q01",
+    "relevant_in_top3": 2,
+    "retrieved": 3,
+    "precision_at_3": 0.666667,
+    "irrelevant_T07_rank": 3,
+    "irrelevant_T07_score": 0.690192,
+    "mean_relevant_score": 0.85048
+  },
+  "q02": {
+    "query_id": "Q02",
+    "relevant_in_top3": 2,
+    "retrieved": 3,
+    "precision_at_3": 0.666667,
+    "irrelevant_T07_rank": 3,
+    "irrelevant_T07_score": 0.168371,
+    "mean_relevant_score": 0.998762
+  },
+  "T07_score_delta_Q02_minus_Q01": -0.521821,
+  "caveat": "only two queries on ten teacher-authored passages; no inferential statistics"
+}

@@ -1,0 +1,14 @@
+{
+  "paper_pages": 8,
+  "w07_fixture": "handcrafted vectors, not model output",
+  "w07_precision_at_3_both": 0.666667,
+  "w07_irrelevant_t07_score_q01": 0.690192,
+  "w07_irrelevant_t07_score_q02": 0.168371,
+  "w11_run_budget_3": {"actions": 3, "sources_read": 2, "local_status": "FAIL"},
+  "w11_run_budget_6": {"actions": 5, "sources_read": 3, "local_status": "PASS"},
+  "validator_negative_probes": 3,
+  "unit_tests_passed": 9,
+  "official_w11_validator_executed": false,
+  "model_used": false,
+  "network_used_for_core_experiment": false
+}
